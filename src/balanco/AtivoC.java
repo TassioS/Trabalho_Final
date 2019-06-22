@@ -9,6 +9,12 @@ public class AtivoC {
     private double outros_ativosCirculates;
 
     public AtivoC() {
+        this.caixa = 0;
+        this.investimentos_CP = 0;
+        this.contas_Receber = 0;
+        this.inventario = 0;
+        this.despesas_Antecipadas = 0;
+        this.outros_ativosCirculates = 0;
     }
 
     public double getCaixa() {

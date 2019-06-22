@@ -12,6 +12,15 @@ public class Patrimonio_Liquido {
     private double outros_PatrimoniosLiquidos;
 
     public Patrimonio_Liquido() {
+        this.acoes_PreferenciaisResgataveis = 0;
+        this.agio = 0;
+        this.acoes_Ordinarias = 0;
+        this.capital_Social = 0;
+        this.lucros_Retidos = 0;
+        this.acoes_Tesouraria = 0;
+        this.garantia_Divida = 0;
+        this.ganho_Naorealizado = 0;
+        this.outros_PatrimoniosLiquidos = 0;
     }
 
     public double getAcoes_PreferenciaisResgataveis() {

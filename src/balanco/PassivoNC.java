@@ -8,6 +8,11 @@ public class PassivoNC {
     private double outros_Passivos;
 
     public PassivoNC() {
+        this.endividamento_LP = 0;
+        this.obrigacoes_ArrendamentoMercantil = 0;
+        this.imposto_RendaDiferido = 0;
+        this.participação_Acionistas = 0;
+        this.outros_Passivos = 0;
     }
 
     public double getEndividamento_LP() {

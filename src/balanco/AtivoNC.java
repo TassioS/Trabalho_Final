@@ -11,6 +11,14 @@ public class AtivoNC {
     private double outros_Ativos;
 
     public AtivoNC() {
+        this.imobilizado = 0;
+        this.depreciacao = 0;
+        this.agio = 0;
+        this.intangiveis = 0;
+        this.investimentos_LP = 0;
+        this.realizavel_LP = 0;
+        this.outros_AtivosLP = 0;
+        this.outros_Ativos = 0;
     }
 
     public double getImobilizado() {

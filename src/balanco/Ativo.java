@@ -5,6 +5,8 @@ public class Ativo {
     private AtivoNC ativo_NaoCirculante;
 
     public Ativo() {
+        ativo_Circulante = new AtivoC();
+        ativo_NaoCirculante = new AtivoNC();
     }
 
     public AtivoC getAtivo_Circulante() {

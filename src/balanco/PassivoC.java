@@ -9,6 +9,12 @@ public class PassivoC {
     private double outros_Passivos;
 
     public PassivoC() {
+        this.contas_Pagar = 0;
+        this.a_Recolher = 0;
+        this.investimentos_CP = 0;
+        this.emprestimo_CP = 0;
+        this.parcela_Circulante = 0;
+        this.outros_Passivos = 0;
     }
 
     public double getContas_Pagar() {
